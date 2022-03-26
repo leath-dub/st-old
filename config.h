@@ -5,7 +5,8 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "JetBrainsMonoNL Nerd Font:pixelsize=25:antialias=true:autohint=true";
+// static char *font = "JetBrainsMonoNL Nerd Font:pixelsize=25:antialias=true:autohint=true";
+static char *font = "Iosevka:pixelsize=30:antialias=true:autohint=true";
 static int borderpx = 0;
 
 /*
@@ -133,7 +134,10 @@ unsigned int tabspaces = 8;
 //unsigned int defaultbg = 259;
 //unsigned int defaultcs = 256;
 //static unsigned int defaultrcs = 257;
-#include "/home/cathal/.cache/wal/colors-wal-st.h"
+
+/* color schemes */
+//#include "/home/cathal/.cache/wal/colors-wal-st.h"
+#include "/home/cathal/.sources/st/.themes/gruvbox.h"
 
 /*
  * Default shape of cursor

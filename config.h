@@ -7,6 +7,7 @@
  */
 // static char *font = "JetBrainsMonoNL Nerd Font:pixelsize=25:antialias=true:autohint=true";
 static char *font = "Iosevka:pixelsize=30:antialias=true:autohint=true";
+// static char *font = "my_pixel_font:pixelsize=32";
 static int borderpx = 0;
 
 /*
@@ -56,6 +57,12 @@ int allowwindowops = 0;
  */
 static double minlatency = 8;
 static double maxlatency = 33;
+
+/*
+ * blinking timeout (set to 0 to disable blinking) for the terminal blinking
+ * attribute.
+static int borderpx = 0;
+*/
 
 /*
  * blinking timeout (set to 0 to disable blinking) for the terminal blinking

@@ -7,7 +7,9 @@
  */
 // static char *font = "JetBrainsMonoNL Nerd Font:pixelsize=25:antialias=true:autohint=true";
 // static char *font = "Iosevka:pixelsize=30:antialias=true:autohint=true";
-static char *font = "Cascadia Code Light:pixelsize=30:antialias=true:autohint=true";
+// static char *font = "Cascadia Code Light:pixelsize=27:antialias=true:autohint=true";
+static char *font = "Fantasque Sans Mono:pixelsize=30:antialias=true:autohint=true";
+
 // static char *font = "my_pixel_font:pixelsize=32";
 static int borderpx = 0;
 

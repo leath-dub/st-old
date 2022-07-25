@@ -147,7 +147,7 @@ unsigned int tabspaces = 8;
 
 /* color schemes */
 //#include "/home/cathal/.cache/wal/colors-wal-st.h"
-#include "/home/cathal/.sources/st/.themes/gruvbox.h"
+#include ".themes/gruvbox.h"
 
 /*
  * Default shape of cursor

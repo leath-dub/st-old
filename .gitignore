@@ -1,2 +1,6 @@
 *.o
 st
+!thm
+thm/*
+!thm/gruvbox.h
+!thm/nord.h
